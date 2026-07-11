@@ -1,7 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel, Field
 import orchestration.router as router
-import config
 
 api_router = APIRouter()
 
